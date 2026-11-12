@@ -34,8 +34,26 @@ property-document-verification/
 
 ## Install
 
-- **Claude.ai**: Settings > Capabilities > Skills, upload `property-document-verification.skill` (or the zipped folder).
-- **Claude Code**: copy the folder to `~/.claude/skills/`.
+**Claude.ai / Claude desktop**
+
+1. Download `property-document-verification.skill` from the [latest release](https://github.com/surendralg/property-document-verification/releases/latest).
+2. In Claude, open Settings > Capabilities > Skills and upload the file.
+
+**Claude Code**
+
+```bash
+git clone https://github.com/surendralg/property-document-verification ~/.claude/skills/property-document-verification
+```
+
+Or copy the folder into `.claude/skills/` inside a project to make it available only there.
+
+**Rebuilding the package yourself**
+
+The `.skill` file is a zip of this folder. From the folder's parent directory:
+
+```bash
+zip -r property-document-verification.skill property-document-verification -x "*/.git/*" "*/dist/*" "*.skill"
+```
 
 ## Using the bundle builder on its own
 

@@ -7,3 +7,7 @@ work/
 *.png
 manifest.json
 __pycache__/
+
+# Packaged skill goes on the Releases page, not in the repo
+dist/
+*.skill
