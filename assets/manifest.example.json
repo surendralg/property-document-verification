@@ -1,0 +1,37 @@
+{
+  "title": "Western Portion of Industrial Site No. 12",
+  "subtitle": "A Layout, Example Extension, Mysuru",
+  "cover_lines": [
+    "Owner: A. Seller, S/o Late B. Seller",
+    "Purchaser: C. Buyer, S/o D. Buyer (agreement of sale dated 01-01-2027)"
+  ],
+  "compiled": "05-01-2027",
+  "prepared_by": "C. Buyer",
+  "footer": "Industrial Site No. 12, A Layout, Example Extension, Mysuru  |  Property document set",
+  "report_pdf": "title_report.pdf",
+  "jpeg_quality": 70,
+  "max_width": 1240,
+  "tiles": [
+    {"label": "Site dimensions", "value": "40 ft x 200 ft", "sub": "8,000 sq ft as per decree", "category": "Grant"},
+    {"label": "Site area (e-Khata)", "value": "8,050 sq ft", "sub": "747.9 sq m", "category": "Khata and tax"},
+    {"label": "Built-up area", "value": "5,000 sq ft", "sub": "industrial, built 1985", "category": "Encumbrance"},
+    {"label": "e-Khata property ID", "value": "1234567890", "sub": "Ward 10", "category": "Court decrees"},
+    {"label": "Sale consideration", "value": "Rs. 2,00,00,000", "sub": "Advance Rs. 20,00,000 paid", "category": "Sale"},
+    {"label": "Property tax", "value": "Paid 2026-27", "sub": "Rs. 50,000 on 01-10-2026", "category": "Civil records"}
+  ],
+  "boundaries": {"East": "Property of X", "West": "Road", "North": "Property of Y", "South": "Site No. 11"},
+  "chain_heading": "Chain of title, 1975 to 2027",
+  "chain": [
+    {"year": "1975", "category": "Grant", "title": "Development authority", "detail": "Allotment and registered title deed to the original allottee"},
+    {"year": "2000", "category": "Civil records", "title": "Original allottee passes away", "detail": "Heirs per family surviving certificate"},
+    {"year": "2010", "category": "Court decrees", "title": "O.S. No. 100/2010", "detail": "Western portion allotted to the seller; decree registered"},
+    {"year": "2027", "category": "Sale", "title": "Agreement of sale", "detail": "Executed with the purchaser"}
+  ],
+  "documents": [
+    {"title": "Allotment letter", "date": "1975", "category": "Grant", "source": "scans/old_set.pdf", "pages": "1"},
+    {"title": "Registered title deed", "date": "12-03-1976", "category": "Grant", "source": "scans/old_set.pdf", "pages": "2-6"},
+    {"title": "Family surviving certificate", "date": "05-05-2000", "category": "Civil records", "images": ["scans/fsc.jpg"]},
+    {"title": "Final decree, O.S. No. 100/2010", "date": "10-02-2010", "category": "Court decrees", "source": "scans/new_scan.pdf", "pages": "3-7"},
+    {"title": "Agreement of sale", "date": "01-01-2027", "category": "Sale", "source": "scans/agreement.pdf"}
+  ]
+}

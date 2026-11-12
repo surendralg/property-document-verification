@@ -1,0 +1,9 @@
+# Never commit real property data
+scans/
+work/
+*.pdf
+*.jpg
+*.jpeg
+*.png
+manifest.json
+__pycache__/
